@@ -1,0 +1,17 @@
+{
+  "name": "page-speed-insights",
+  "version": "1.0.0",
+  "description": "getting PSI scores on website's pages",
+  "main": "psi-handler.js",
+  "scripts": {
+    "build": "node psi-handler.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^42.0.0",
+    "node-fetch": "^2.6.0",
+    "prettyjson": "^1.2.1",
+    "serverless": "^1.42.3"
+  }
+}
